@@ -1,0 +1,113 @@
+.login {
+  width: auto;
+  height: 700px;
+}
+
+.box {
+  display: block;
+  margin: 100px auto;
+  border-radius: 5px;
+  max-width: 375px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.header-text {
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin: 0;
+  line-height: 2.3rem;
+  padding: 20px 0 0 0;
+  color: rgb(0, 166, 189);
+}
+
+.fa-user-circle {
+  display: block;
+  margin: 0 auto;
+  color: rgb(0, 166, 189);
+}
+
+input {
+  display: block;
+  background-color: white;
+  color: rgb(0, 166, 189);
+  outline: none;
+  margin: 40px 0;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  border: none;
+  line-height: 22px;
+  width: 100%;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s, background-color 0.3s, font-size 0.3s;
+}
+
+.email-input,
+.password-input {
+  width: 100%;
+}
+
+input:focus {
+  border-color: rgb(0, 166, 189);
+  font-size: 20px;
+  background-color: white;
+}
+
+.login-btn button {
+  margin: 70px auto 20px;
+  display: block;
+  padding: 8px 70px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  background-color: rgb(0, 166, 189);
+  border: 2px solid rgb(0, 166, 189);
+  color: white;
+  font-weight: normal;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.login-btn button:hover {
+  color: rgb(0, 166, 189);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.choose p {
+  text-align: center;
+  word-spacing: 0;
+  display: block;
+  margin: 0;
+  font-size: 15px;
+}
+
+.choose p:first-child {
+  margin-bottom: 10px;
+}
+
+.choose p a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 166, 189);
+  font-size: 15px;
+}
+
+p a:hover {
+  color: rgb(0, 180, 100);
+  text-decoration: underline;
+}
+.balance {
+  transform: scale(0.6, 0.6);
+  transform: translate(0px, 200px);
+  background-color: rgb(238, 218, 203);
+  display: block;
+}

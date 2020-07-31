@@ -1,0 +1,110 @@
+body {
+  overflow-x: hidden;
+}
+
+/*stating of particle style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+  height: 120vh;
+
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../particle.jpg");
+}
+/*ending of particle style*/
+/*stating of about us style*/
+#about {
+  background-color: rgb(255, 255, 255);
+  height: 860px;
+}
+
+/*endinging of about us style*/
+
+/*stating of experts style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.n1 {
+  height: 850px;
+}
+.experts {
+  background: rgb(227, 240, 250);
+  padding-top: 100px;
+  height: 900px;
+}
+.main-section {
+  border: 1px solid #2fa4b1;
+  background-color: #fff;
+}
+.profile-header {
+  background-color: #363838;
+  height: 150px;
+}
+.user-detail {
+  margin: -50px 0px 30px 10px;
+}
+.user-detail img {
+  height: 130px;
+  width: 130px;
+}
+.user-detail h5 {
+  margin: 15px 0px 5px 0px;
+}
+.user-social-detail {
+  padding: 15px 0px;
+  background-color: #313435;
+}
+.user-social-detail a i {
+  color: #fff;
+  font-size: 23px;
+  padding: 0px 5px;
+}
+.nurul {
+  transform: translate(446px, -531px);
+}
+.kaykobad {
+  transform: translate(894px, -1038px);
+}
+/*endiing of experts style*/
+
+/*starting of contact us style*/
+
+.nupa {
+  background-color: rgb(255, 255, 255);
+  height: 740px;
+}
+.con {
+  font-size: 20px;
+  width: 500px;
+  float: right;
+}
+
+/*endinging of contact us style*/
+
+/*starting of footer style*/
+.footer_image {
+  width: 100%;
+  height: 400px;
+
+  position: absolute;
+}
+
+.social-icons {
+  z-index: 2;
+  position: relative;
+  top: 180px;
+  margin-left: 535px;
+}
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+/*ending of footer style*/
+
+/*------------------------------------------index style ends--------------------------------------*/
